@@ -16,5 +16,11 @@ namespace filedemo2
         {
             InitializeComponent();
         }
+
+        private void create_Click(object sender, EventArgs e)
+        {
+            String path = Environment.CurrentDirectory + "kriz.txt";
+            filec(path);
+        }
     }
 }
